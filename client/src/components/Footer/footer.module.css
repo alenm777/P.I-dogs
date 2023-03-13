@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.footerContainer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.576), rgba(5, 7, 12, 0.75)),
+    url(../../img/pattern-background.png);
+    background-repeat: no-repeat;
+   background-position: center center;
+  
+   background-size: cover;
+
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logoFooter{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    max-height: 40px;
+}
+
+.textFooter{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: rgb(237, 242, 244);
+    font-size: 1em;
+    border-radius: 5px;
+    margin-right: 30px;
+    padding: 10px 15px;
+    transition: all 300ms ease;
+}
+
+.redesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.redes{
+    max-width: 35px;
+}
+
+.linkContainer{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.link{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+    color: rgb(237, 242, 244);
+    transition: all 300ms ease;
+}
+
+.link:hover{
+    color: rgb(239, 35, 60);
+}
+
+.copyContainer{
+    background-color: #2e352f;
+    width: 100%;
+    text-align: center;
+}
+
+.copy{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: rgb(237, 242, 244);
+}
